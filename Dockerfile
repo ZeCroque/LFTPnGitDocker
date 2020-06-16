@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-RUN apk --no-cache add lftp ca-certificates openssh git
+RUN apk --no-cache add lftp ca-certificates openssh git curl
